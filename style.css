@@ -2,6 +2,11 @@ body {
   font-family: "Roboto", sans-serif;
   background-color: #eeeeee;
   color: #303030;
+  text-align: center;
+}
+
+p {
+  text-align: justify;
 }
 
 img {
@@ -17,6 +22,10 @@ h2 {
   font-style: italic;
 }
 
+a {
+  color: inherit;
+}
+
 .circular {
   border-radius: 50%;
   aspect-ratio: 1/1;
@@ -27,8 +36,8 @@ h2 {
   object-position: bottom 100% right 50%;
 }
 
-.maria {
-  font-family: "Agbalumo";
+.logo {
+  font-family: "Agbalumo", sans-serif;
 }
 
 .container {
@@ -46,4 +55,16 @@ h2 {
 
 .best-works-info {
   margin: 20px auto;
+}
+
+.social-media {
+  font-size: 22px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+a.social-icons {
+  text-decoration: none;
 }
