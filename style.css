@@ -1,14 +1,30 @@
 body {
   font-family: "Roboto", sans-serif;
+  background-color: #eeeeee;
+  color: #303030;
 }
 
 img {
   object-fit: cover;
 }
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 36px;
+  font-style: italic;
+}
+
 .circular {
   border-radius: 50%;
   aspect-ratio: 1/1;
-  object-position: bottom 30% right -1%;
+  object-position: bottom 30% right 50%;
+}
+
+.cirular-top {
+  object-position: bottom 100% right 50%;
 }
 
 .maria {
@@ -16,7 +32,7 @@ img {
 }
 
 .container {
-  margin-top: 100px;
+  margin: 100px auto;
 }
 
 .navbar .container-fluid {
@@ -28,10 +44,6 @@ img {
   justify-self: right !important;
 }
 
-h1 {
-  font-size: 60px;
-}
-
-h2 {
-  font-size: 36px;
+.best-works-info {
+  margin: 20px auto;
 }
