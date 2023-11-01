@@ -1,0 +1,37 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  object-fit: cover;
+}
+.circular {
+  border-radius: 50%;
+  aspect-ratio: 1/1;
+  object-position: bottom 30% right -1%;
+}
+
+.maria {
+  font-family: "Agbalumo";
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.navbar .container-fluid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+
+.navbar-collapse {
+  justify-self: right !important;
+}
+
+h1 {
+  font-size: 60px;
+}
+
+h2 {
+  font-size: 36px;
+}
