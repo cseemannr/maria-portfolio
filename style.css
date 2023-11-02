@@ -62,3 +62,23 @@ a {
 a.social-icons {
   text-decoration: none;
 }
+
+.footer {
+  padding: 40px;
+  background-color: #d5d5d5;
+}
+
+.footer .container {
+  margin: 0 auto;
+}
+
+.footer a {
+  font-size: 14px;
+  color: #fff;
+  text-decoration: underline;
+  transition: all 0.3s ease-in-out;
+}
+.footer a:hover {
+  color: #303030;
+  font-size: 16px;
+}
