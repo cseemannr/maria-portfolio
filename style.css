@@ -28,12 +28,6 @@ a {
 
 .circular {
   border-radius: 50%;
-  aspect-ratio: 1/1;
-  object-position: bottom 30% right 50%;
-}
-
-.cirular-top {
-  object-position: bottom 100% right 50%;
 }
 
 .logo {
