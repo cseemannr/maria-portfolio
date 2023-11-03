@@ -3,6 +3,7 @@ body {
   background-color: #eeeeee;
   color: #303030;
   text-align: center;
+  overflow-x: hidden;
 }
 
 p {
@@ -38,13 +39,8 @@ a {
   margin: 100px auto;
 }
 
-.navbar .container-fluid {
-  display: grid;
-  grid-template-columns: auto auto;
-}
-
 .navbar-collapse {
-  justify-self: right !important;
+  justify-content: end;
 }
 
 .best-works-info {
@@ -81,4 +77,14 @@ a.social-icons {
 .footer a:hover {
   color: #303030;
   font-size: 16px;
+}
+
+@media (max-width: 320px) {
+  h1 {
+    font-size: 50px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
 }
